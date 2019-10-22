@@ -1,11 +1,16 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
+import JSONSkills from '../data/data.json';
+import JSONProject from '../data/project.json';
+
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    menu: true,
+    skills: JSONSkills,
+    projectsPortfolio: JSONProject,
+    menu: 'true',
   },
   mutations: {
   },

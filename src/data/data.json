@@ -1,0 +1,56 @@
+[
+  {
+    "name" : "Adobe Illustratoe",
+    "img" : "../img/ai.png",
+    "value" : "ai",
+    "category" : "design"
+  },
+  {
+    "name" : "Adobe Indesign",
+    "img" : "../img/id.png",
+    "value" : "id",
+    "category" : "design"
+  },
+  {
+    "name" : "Adobe Xd",
+    "img" : "../img/xd.png",
+    "value" : "xd",
+    "category" : "design"
+  },
+  {
+    "name" : "Adobe Pothoshop",
+    "img" : "../img/ps.png",
+    "value" : "ps",
+    "category" : "design"
+  },
+  {
+    "name" : "HTML",
+    "img" : "../img/html.png",
+    "value" : "html",
+    "category" : "development"
+  },
+  {
+    "name" : "Css",
+    "img" : "../img/css.png",
+    "value" : "css",
+    "category" : "development"
+  },
+  {
+    "name" : "JavaScript",
+    "img" : "../img/js.png",
+    "value" : "js",
+    "category" : "development"
+  },
+  {
+    "name" : "Git",
+    "img" : "../img/git.png",
+    "value" : "git",
+    "category" : "development"
+  },
+  {
+    "name" : "Vue.Js",
+    "img" : "../img/vue.png",
+    "value" : "vue",
+    "category" : "development"
+  }
+]

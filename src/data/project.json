@@ -1,0 +1,31 @@
+[
+  {
+    "name": "LyR inmobiliaria",
+    "description": "Este proyecto lo realice desde 0, creamos un logo basico para probar si el mercado objetivo repondia adecuadamente",
+    "images": [
+      "lyrInmobiliaria/1.png",
+      "lyrInmobiliaria/2.png",
+      "lyrInmobiliaria/3.png"
+    ],
+    "url":"url"
+  },
+  {
+    "name": "A.M.O.R.A.",
+    "description": "Este proyecto lo realice desde 0, creamos un logo basico para probar si el mercado objetivo repondia adecuadamente",
+    "images": [
+      "lyrInmobiliaria/1.png",
+      "lyrInmobiliaria/2.png",
+      "lyrInmobiliaria/3.png"
+    ],
+    "url":"url"
+  },
+  {
+    "name": "elVecino.com",
+    "description": "Este proyecto lo realice desde 0, creamos un logo basico para probar si el mercado objetivo repondia adecuadamente",
+    "images": [
+      "lyrInmobiliaria/1.png",
+      "lyrInmobiliaria/2.png",
+      "lyrInmobiliaria/3.png"
+    ]
+  }
+]

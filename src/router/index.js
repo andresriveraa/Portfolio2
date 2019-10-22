@@ -3,6 +3,8 @@ import VueRouter from 'vue-router';
 
 import whoAMi from '../views/aboutMe.vue';
 import contact from '../views/contact.vue';
+import moreAbout from '../views/moreAbout.vue';
+import portfolio from '../views/portfolio.vue';
 
 Vue.use(VueRouter);
 
@@ -16,6 +18,8 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue'),
   },
   { path: '/', name: 'aboutMe', component: whoAMi },
+  { path: '/moreAbout', name: 'moreAbout', component: moreAbout },
+  { path: '/portfolio', name: 'Portfolio', component: portfolio },
   { path: '/contact', name: 'Contact', component: contact },
 ];
 
