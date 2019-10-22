@@ -1,0 +1,117 @@
+
+#home{
+  max-width: 1400px;
+  overflow: hidden;
+  margin: auto;
+  height: 100vh;
+  position: relative;
+}
+
+/* text corner right */
+.cornerUp {
+  position: fixed;
+  top: 3rem;
+  right: -11rem;
+  color: var(--color-white);
+  display: flex;
+  align-items: flex-end;
+}
+.horizontal{
+  margin-right: 24px;
+}
+.vertical{
+  transform: rotate(90deg);
+  transform-origin: left top;
+}
+
+/* circle */
+#circleHome{
+  position: fixed;
+  bottom: -96px;
+  left: calc(50% - ( 793px / 2));
+  transform: scale(1.1);
+}
+#circleHome:hover .menuAbout{
+  animation: showMenuAbout 0.5s ease-in-out forwards ;
+}
+
+/* name */
+.tittleHome{
+  width: 446px;
+  text-align: right;
+  font-family: var(--font-raleway);
+  position: absolute;
+  top: 20vh;
+  left: 4rem;
+}
+.tittleHome .carrer{
+  font-family: var(--font-quicksand);
+  color: var(--color-white);
+  font-size: 3rem;
+  margin-bottom: -24px;
+}
+
+.tittleHome .name{
+  font-size: 8rem;
+  color: var(--color-blue);
+  margin-bottom: -40px;
+}
+
+/* foto perfil */
+.me{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+/* menu about */
+.menuAbout{
+ position: absolute;
+ right: 0;
+ bottom: 30vh;
+ transform: translate(-200px);
+ 
+}
+.menuAbout > ul >.Link{
+  font-size: 2.5rem;
+  color: var(--color-white);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.menuAbout > ul >.Link:hover{
+  color: var(--color-blue);
+}
+ 
+@keyframes showMenuAbout{
+  0%{
+    transform: translate(-200px);
+  }
+  100%{
+    transform: translate(0px);
+  }
+}
+
+/* corner left*/
+.cornerNick{
+  font-family: var(--font-raleway);
+  font-weight: 100;
+  position: fixed;
+  bottom: 2rem;
+  left: 4rem;
+  color: var(--color-white);
+}
+.horizontal, .horizontalRight, .vertical, .verticalRight{
+  font-size: 2rem;
+  font-family: var(--font-raleway);
+  font-weight: 100;
+}
+.horizontalRight{
+  margin-right: 1.5rem;
+}
+.verticalRight{
+  transform: rotate(-90deg);
+  transform-origin: left top; 
+}

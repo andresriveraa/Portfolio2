@@ -1,10 +1,9 @@
 <template>
-  <div class="menu">
-    <ul id="Menu" class="menu">
-      <router-link to="/" v-show="menu">Inicio</router-link>
-      <router-link to="/portfolio" v-show="!menu" >Portafolio</router-link>
-      <router-link to="/contact">Contacto</router-link>
-      {{menu}}
+  <div id="Menu" class="menu">
+    <ul id="menu" class="menu">
+      <router-link class="Link menulink" to="/" v-show="menu">Inicio</router-link>
+      <router-link class="Link menulink" to="/portfolio" v-show="!menu" >Portafolio</router-link>
+      <router-link class="Link menulink" to="/contact">Contacto</router-link>
     </ul>
   </div>
 </template>
@@ -23,3 +22,6 @@ export default {
   },
 };
 </script>
+<style>
+@import '../css/main.css'
+</style>
