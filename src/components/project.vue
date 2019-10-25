@@ -1,9 +1,22 @@
 <template>
-  <div class="textItem">
-    <h1>{{itemPort.name}}</h1>
-    <h1>{{itemPort.description}}</h1>
-    <div class="imageprohjects" v-for="imgItem in itemPort.images" :key="imgItem.id">
-      <img :src="require(`@/img/${imgItem}`)" alt="">
+  <div class="contentProject">
+    <div class="textItem">
+      <div class="imgProjects">
+        <div class="mainImg">
+          <figure>
+            <img :src="require(`@/img/${itemPort.imgMain}`)" alt="">
+          </figure>
+        </div>
+        <div class="imageprohject" v-for="imgItem in itemPort.images" :key="imgItem.id">
+          <img :src="require(`@/img/${imgItem}`)" alt="">
+        </div>
+      </div>
+      <div class="contentTextProject">
+        <div class="textProject">
+          <h1 class="nameProject">{{itemPort.name}}</h1>
+          <p class="descriptionProject">{{itemPort.description}}</p>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -18,3 +31,7 @@ export default {
   },
 };
 </script>
+
+<style>
+@import '../css/project.css';
+</style>

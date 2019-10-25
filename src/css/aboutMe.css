@@ -31,9 +31,7 @@
   left: calc(50% - ( 793px / 2));
   transform: scale(1.1);
 }
-#circleHome:hover .menuAbout{
-  animation: showMenuAbout 0.5s ease-in-out forwards ;
-}
+
 
 /* name */
 .tittleHome{
@@ -70,8 +68,8 @@
  position: absolute;
  right: 0;
  bottom: 30vh;
- transform: translate(-200px);
- 
+ animation: showMenuAbout 1s ease-in-out forwards ;
+ /* transform: translate(-200px); */
 }
 .menuAbout > ul >.Link{
   font-size: 2.5rem;

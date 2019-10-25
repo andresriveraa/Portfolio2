@@ -3,6 +3,7 @@
 --color-pink: #E3D1C3;
 --color-blue:#406A84;
 --font-raleway: Raleway;
+--font-raleway-bold: Raleway-bold;
 --font-quicksand: Quicksand;
 }
 *{
@@ -11,6 +12,7 @@
 body{
   font-family: Quicksand;
   font-size: 16px;
+  color: var(--color-blue);
   background-color: var(--color-pink);
   height: 100vh;
 }

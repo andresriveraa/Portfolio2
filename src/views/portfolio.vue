@@ -1,19 +1,19 @@
 <template>
   <div>
-    <Menu />
+    <Menu class="menuColor" />
     <div class="gridImg">
       <figure>
-
+        <img class="pinkCircle" src="../img/pinkCircle.png" alt="">
       </figure>
     </div>
     <div class="textProject">
       <projectItem :itemPort="itemShow"></projectItem>
-    </div>
-    <div class="menuProjects">
-      <ul>
-        <li v-for="link in projectsPortfolio" :key="link.id"
-         @click.prevent="showProject(link)"> {{link.name}}</li>
-      </ul>
+      <div class="menuProjects">
+        <ul>
+          <li v-for="link in projectsPortfolio" :key="link.id"
+          @click.prevent="showProject(link)"> {{link.name}}</li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>

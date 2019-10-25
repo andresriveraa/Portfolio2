@@ -1,0 +1,152 @@
+/* grid Habilidades tecnicas  */
+.skillsGrid{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 100vh;
+  width: 100vw;
+  max-width: 1920px;
+}
+.skilsItem{
+  width: 720px;
+  height: 720px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* content text skills */
+.squareLeft{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.groupSkill{
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+ /* left text skills */
+.textSkils{
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.contentTextSkills{
+  width:321px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+  margin: auto;
+}
+
+.titleSkills{
+  font-size: 3.5rem ;
+  font-family: var(--font-raleway-bold);
+}
+.subtitleSki{
+  font-size: 2rem ;
+  font-family: var(--font-raleway);
+  margin-bottom: 2rem;
+}
+.nextSkills{
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+.nextSkills h5{
+  font-family: var(--font-quicksand);
+  font-size: 1rem ;
+  text-align: center;
+}
+.devLearn{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 1rem;
+}
+
+/* experience square */
+.experienceGrid{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* left square*/
+.enterprises{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-white);
+}
+.enterprise{
+  width: 420px;
+  height: 80%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.enterpriseItem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.enterpriseItem .title{
+  font-size: 3rem;
+  font-family: var(--font-raleway-bold);
+  color: var(--color-blue);
+}
+.enterpriseItem .position{
+  font-size: 1.5rem;
+  font-family: var(--font-quicksand)
+}
+.enterpriseItem .durationJob{
+  font-size: 1rem;
+  font-family: var(--font-quicksand)
+}
+.enterpriseOne .alignItem{
+  text-align: left;
+}
+.enterpriseTwo .alignItem{
+  text-align: right;
+}
+
+/* right square */
+.textLargeExperience
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapExperience{
+  width: 421px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logoExperience{
+  margin-bottom: 6rem;
+
+}
+.titleExperience{
+  font-size: 3.5rem;
+  color: var(--color-white);
+  font-family: var(--font-raleway-bold);
+  margin-bottom: 2rem;
+}
+.lineExp{
+  margin-bottom: 6rem;
+  border: 1px solid var(--color-white);
+}
+#abstract{
+  font-size: 1em;
+}

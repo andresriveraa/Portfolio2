@@ -1,0 +1,60 @@
+.contentProject{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-white);
+}
+.textItem{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.nameProject{
+  font-size: 5rem;
+  color: var(--color-pink)
+}
+.descriptionProject{
+  text-align: right;
+}
+.contentTextProject{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* imagenes */
+.imggrid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.imgProjects{
+  position: relative;
+  z-index: 5;
+}
+
+/* menu project */
+.menuProjects{
+  position: absolute;
+  bottom: 20%;
+  right: 15%; 
+}
+.pinkCircle{
+  width: 1200px;
+  position: absolute;
+  bottom: -330px;
+  left: -300px;
+}
+.menuProjects ul {
+  width: 510px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.menuProjects ul li{
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: var(--font-raleway);
+  list-style: none;
+  cursor: pointer;
+}
