@@ -27,6 +27,9 @@ export default {
       itemShow: this.$store.state.projectsPortfolio[0],
     };
   },
+  created() {
+    this.$store.commit('changeColor');
+  },
   components: {
     projectItem,
   },

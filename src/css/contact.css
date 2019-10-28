@@ -1,0 +1,68 @@
+.mainContact{
+  background-color: var(--color-white);
+  width: 100vw;
+  height: 100vh;
+}
+/* circle blue */
+.cricleTop{
+  position: absolute;
+  width: 100vw;
+  z-index: 0;
+}
+/* grid rrss */
+.iconRRSS{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.rrss{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 500px;
+  height: 500px;
+}
+.instagram{
+  grid-column: 1 / 5;
+  grid-row: 1/2;
+}
+#github,#twitter{
+  display: flex;
+}
+#twitter{
+  justify-content: end;
+}
+
+.endSpace{
+  grid-column: 1/5;
+  grid-row: 3/4 ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* corner left */
+.cornerNickLeft{
+  position: fixed;
+  bottom: 2rem;
+  left: 4rem;
+}
+.horizontalRightC, .horizontalLeft, .verticalRightc, .verticalLeft{
+  color: var(--color-blue);
+  font-size: 2rem;
+  font-family: var(--font-raleway);
+  font-weight: 100;
+}
+.horizontalLeft{
+  margin-right: 1.5rem;
+}
+.verticalLeft{
+  transform: rotate(-90deg);
+  transform-origin: left top; 
+}
+.horizontalRightC{
+  margin-right: 40px;
+}
+.verticalRightc{
+  transform: rotate(90deg);
+  transform-origin: left top;
+}

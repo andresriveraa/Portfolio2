@@ -37,6 +37,9 @@ export default {
   computed: {
     ...mapState(['menu']),
   },
+  created() {
+    this.$store.commit('changeColor');
+  },
 };
 </script>
 

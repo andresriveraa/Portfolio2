@@ -1,9 +1,12 @@
 <template>
   <div id="Menu" class="menu">
     <ul id="menu" class="menu">
-      <router-link class="Link menulink" to="/" v-show="menu">Inicio</router-link>
-      <router-link class="Link menulink" to="/portfolio" v-show="!menu" >Portafolio</router-link>
-      <router-link class="Link menulink" to="/contact">Contacto</router-link>
+      <router-link :class="'Link menulink ' + menuitemShow.colroLetter"
+                  to="/" v-show="menuitemShow.inicio">Inicio</router-link>
+      <router-link :class="'Link menulink ' + menuitemShow.colroLetter"
+                  to="/portfolio" v-show="menuitemShow.portfolio" >Portafolio</router-link>
+      <router-link :class="'Link menulink ' + menuitemShow.colroLetter"
+                  to="/contact" v-show="menuitemShow.contacto">Contacto</router-link>
     </ul>
   </div>
 </template>
@@ -13,15 +16,10 @@ import { mapState } from 'vuex';
 
 export default {
   computed: {
-    ...mapState(['menu']),
-  },
-  created() {
-    if (window.location.pathname === '/') {
-      this.$store.state.menu = false;
-    } else { this.$store.state.menu = true; }
+    ...mapState(['menuitemShow', 'colroLetter']),
   },
 };
 </script>
 <style>
-@import '../css/main.css'
+@import '../css/main.css';
 </style>

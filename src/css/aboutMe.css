@@ -17,7 +17,7 @@
   align-items: flex-end;
 }
 .horizontal{
-  margin-right: 24px;
+  margin-right: 40px;
 }
 .vertical{
   transform: rotate(90deg);
