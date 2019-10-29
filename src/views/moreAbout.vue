@@ -6,7 +6,7 @@
       <div class="squareLeft">
         <div class="skilsItem">
           <div class="groupSkill" v-for=" skill in skills" :key="skill.id">
-              <img :src="require(`@/img/${skill.img}`)" alt="">
+              <img :src="require(`@/img/${skill.img}`)" class="imgskill" alt="">
               <h3 class="nameSkills">{{skill.name}}</h3>
           </div>
         </div>

@@ -4,17 +4,22 @@
       <div class="imgProjects">
         <div class="mainImg">
           <figure>
-            <img :src="require(`@/img/${itemPort.imgMain}`)" alt="">
+            <img :src="require(`@/img/${itemPort.imgMain}`)" class="imgGridProjectMain">
           </figure>
         </div>
-        <div class="imageprohject" v-for="imgItem in itemPort.images" :key="imgItem.id">
-          <img :src="require(`@/img/${imgItem}`)" alt="">
+        <div class="smallIMg">
+          <div class="imageprohject" v-for="imgItem in itemPort.images" :key="imgItem.id">
+            <img :src="require(`@/img/${imgItem}`)" class="imgGridProject">
+          </div>
         </div>
       </div>
       <div class="contentTextProject">
-        <div class="textProject">
+        <div class="textProjectLeft">
           <h1 class="nameProject">{{itemPort.name}}</h1>
           <p class="descriptionProject">{{itemPort.description}}</p>
+          <p v-show="itemPort.url"><small>
+            <a :href="itemPort.url" target="_blank" class="LinkPro">Ir al sitio</a>
+          </small></p>
         </div>
       </div>
     </div>

@@ -15,26 +15,26 @@
         <div class="rrss">
             <div class="instagram">
               <a target="_blank" href="https://www.instagram.com/circuandantediseno/?hl=es-la" >
-              <img src="../img/contact/instagram.png" alt="" width="100px"></a>
+              <img src="../img/contact/instagram.png" alt="" class="iconContactRRSS"></a>
               </div>
             <div id="github"><a target="_blank" href="https://github.com/circuandante" class="github">
-              <img src="../img/contact/github.png" alt="" width="100px"></a>
+              <img src="../img/contact/github.png" alt="" class="iconContactRRSS"></a>
               </div>
             <div><a target="_blank" href="https://dribbble.com/anriaco" class="behance">
-              <img src="../img/contact/behance.png" alt="" width="100px"></a>
+              <img src="../img/contact/behance.png" alt="" class="iconContactRRSS"></a>
               </div>
             <div id="twitter"><a target="_blank" href="https://twitter.com/circuandante" class="twitter">
-              <img src="../img/contact/twitter.png" alt="" width="100px"></a>
+              <img src="../img/contact/twitter.png" alt="" class="iconContactRRSS"></a>
             </div>
               <!-- ent space -->
               <div class="endSpace">
                 <div>
                   <a target="_blank" href="https://www.linkedin.com/in/anriaco/" class="linkedin">
-                  <img src="../img/contact/linkedin.png" alt="" width="100px"></a>
+                  <img src="../img/contact/linkedin.png" alt="" class="iconContactRRSS"></a>
                 </div>
                 <div>
                   <a target="_blank" href="https://www.facebook.com/Circuandante" class="facebook">
-                  <img src="../img/contact/facebook.png" alt="" width="100px">
+                  <img src="../img/contact/facebook.png" alt="" class="iconContactRRSS">
                   </a>
                 </div>
               </div>

@@ -32,6 +32,10 @@
   position: relative;
   z-index: 5;
 }
+/* imageprohject */
+.imageprohject{
+
+}
 
 /* menu project */
 .menuProjects{
@@ -39,6 +43,7 @@
   bottom: 20%;
   right: 15%; 
 }
+/* circle */
 .pinkCircle{
   width: 1200px;
   position: absolute;
@@ -57,4 +62,29 @@
   font-family: var(--font-raleway);
   list-style: none;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1366px){
+  .pinkCircle{
+    width: 960px;
+    bottom: -25rem;
+  } 
+  .smallIMg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* title */
+  .nameProject{
+    font-size: rem;
+  }
+  /* menu project */
+  .menuProjects{
+    position: absolute;
+    bottom: 20%;
+    right: 5%; 
+  }
+  .textProjectLeft{
+    text-align: right;
+  }
 }

@@ -23,6 +23,10 @@
   width: 500px;
   height: 500px;
 }
+
+.iconContactRRSS{
+  width: 100px;
+}
 .instagram{
   grid-column: 1 / 5;
   grid-row: 1/2;
@@ -65,4 +69,35 @@
 .verticalRightc{
   transform: rotate(90deg);
   transform-origin: left top;
+}
+.LinkPro{
+  color: var(--color-blue);
+}
+.imgGridProjectMain{
+  width: 450px;
+}
+.imgGridProject{
+  width: 220px;
+  
+}
+@media screen and (max-width: 1366px){
+  /* corner */
+  .cornerNickLeft{
+    bottom: 0rem;
+    left: 2rem;
+  }
+  .horizontalRightC, .horizontalLeft, .verticalRightc, .verticalLeft{
+    font-size: 1.5rem;
+  }
+  .rrss{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 400px;
+    height: 400px;
+    padding-top: 6rem;
+  }
+  .iconContactRRSS{
+    width: 88px;
+  }
 }

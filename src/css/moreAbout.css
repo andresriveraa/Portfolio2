@@ -83,7 +83,7 @@
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: 100%;
+  width: 101%;
   background-color: var(--color-white);
 }
 .enterprise{
@@ -149,4 +149,26 @@
 }
 #abstract{
   font-size: 1em;
+}
+@media screen and (max-width: 1366px){
+  .skilsItem{
+    width: 520px;
+    height: 520px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .titleSkills{
+    font-size: 3rem ;
+  }
+  .subtitleSki{
+    font-size: 1.5rem ;
+  }
+  .imgskill{
+    width: 80px;
+  }
+  /* experience */
+  .lineExp{
+    margin-bottom: 3rem;
+  }
+
 }

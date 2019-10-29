@@ -113,3 +113,33 @@
   transform: rotate(-90deg);
   transform-origin: left top; 
 }
+ 
+@media only screen and ( max-width: 1366px){
+  /* cirlce  */
+  #circleHome{
+  transform: scale(0.9);
+  bottom: -248px;
+  }
+  /* name */
+  .tittleHome .name{
+    font-size: 7rem;
+  }
+  /* corner */
+  .cornerUp {
+    top: 2rem;
+    right: -10rem;
+  }
+  .horizontal, .horizontalRight, .vertical, .verticalRight{
+    font-size: 1.5rem;
+  }
+  .cornerNick{
+    bottom: 0rem;
+    left: 2rem;
+  }
+  .menuAbout{
+    position: absolute;
+    right: 114px;
+    bottom: 18vh;
+  }
+  
+}
